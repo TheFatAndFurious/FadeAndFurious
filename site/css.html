@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Css</title>
+    <link rel="stylesheet" href="minireset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAccueil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="baniere">
+                <div id="logo">
+                    <img src="../image/2019_LOGO-POLE-NUM-4.png" alt="Logo adrar">
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="presentation">
+                <ul>
+                    <li><a href="html.html">Html</a></li>
+                    <li><a href="css.html">Css</a></li>
+                    <li><a href="javascript.html">Javascript</a></li>
+                    <li><a href="api.html">Api</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <div class="intro">
+       <img src="cssLogo.png" id="logo"> 
+        <h2>Qu'est ce que le CSS ?</h2>
+        <p>Le CSS ou Cascading Style Sheets (feuilles de style en cascade), est un langage informatique incontournable pour la mise en forme des pages sur internet. Ça ne vous en dit pas beaucoup plus, mais sachez qu’aujourd’hui, tous les sites Internet possèdent des informations en CSS. Nous allons faire un petit retour en arrière, aux origines du CSS, pour ensuite voir quand l’utiliser.
+
+        <h3>L'historique du CSS</h3>
+        <p>Ce langage a vu le jour au début des années 1990. Mais il a fallu attendre fin 1996 pour une première association avec l’HTML3. Toutefois, cette version ne permettait de modifier que la couleur du texte, les caractères et la police. Après la version 2, la version 3 (logique). Elle a résolu de nombreux problèmes et permet aujourd’hui de gérer la totalité de la mise en forme d’un site internet avec de multiples fonctions. On retrouve souvent la dénomination HTML5/CSS3. Cette version est en constante évolution et les équipes de développement du CSS continuent de faire évoluer ce langage pour s’adapter à la mutation permanente du web.</p>
+    </div>   
+    <div>
+        <h2>Quand l’utiliser?</h2>
+            <h4>Dès que vous avez besoin de mettre en forme une page web!</h4>
+                <p>Dans le processus de création, les développeurs définissent souvent le contenu en premier. Si vous affichez une page HTML simple, vous ne retrouvez qu’une succession d’éléments qui se suivent, avec des retours à la ligne pour chacun. Ensuite ils le mettent en forme : c’est là que le CSS entre en jeu. Un titre plus ou moins gros, une image centrée dans du texte., un bloc qui s’aligne à droite du précédent. Tout cela semble très basique, mais aujourd’hui le CSS permet bien des subtilités, et même d’animer des éléments. Dans tous les cas, il organise les différentes parties d’un site.<br>
+                Après tout, regardez comment sont généralement organisés les sites web</p>
+        <ul>
+            <li>Un header (l’entête du site)</li>
+            <li>Le menu (contenu dans l’entête, sur le côté ou quand on clique sur un bouton (surtout sur mobile)</li>
+            <li>Le contenu principal</li>
+            <li>Un footer (le bas de page)</li>
+        </ul>
+
+                <p>Tout cela est parfaitement organisé grâce au CSS. Comme le sont tous les éléments à l’intérieur : blocs de texte, vidéos, images, boutons…
+                Et le site garde une cohérence entre chaque page grâce aussi à l’utilisation de ce CSS. Notez que la gestion de ces feuilles de style relève de la compétence du Développeur Front-End.</p>
+            </div>
+            <img src="cssCode.jpg" id="exemple">
+            <div>
+                <h2>Comment le CSS fonctionne-t-il??</h2>
+                <p>À la différence de l’HTML, le CSS ne permet pas de créer une page web. C’est aussi un langage côté client. C’est donc votre navigateur qui lit le code CSS et le transpose pour mettre en forme le fichier HTML. Il peut exister des problèmes de compatibilité. Mais, aujourd’hui, à part si votre navigateur web date de l’Âge de pierre, c’est plutôt rare.<br>
+                Vous avez plusieurs possibilités pour faire appel au CSS :</p>
+                    <ul>
+                        <li>directement dans une balise de votre code HTML</li>
+                        <li>dans la balise head de votre page web, entre une balise </li>
+                        <li>dans un ou plusieurs fichiers CSS</li>
+                    </ul>
+                <p>C’est cette troisième solution qui vaut le nom de CSS. En effet, le fait d’appeler différents fichiers pour la mise en forme correspond à la cascade de feuilles de style.
+
+                Bien évidemment, pour comprendre et exploiter le CSS, il faut maîtriser le HTML.  Tuto.com vous propose d’ailleurs une formation complète à ce sujet pour comprendre  les bases du HTML, CSS, Javascript et PHP  et ainsi devenir autonome.<br>
+                Ainsi vous appliquez le style qui est écrit comme dans la seconde solution (sans la balise style). Vous pouvez organiser votre fichier et faire des changements pour toutes les balises ou les classes que vous souhaitez. Par exemple vous pouvez choisir que tous les h1 de votre site soient pareils. C’est beaucoup moins lourd que de le faire à chaque création de pages.
+                C’est surtout bien plus pratique en cas de modification de votre charte graphique qui peut se faire en modifiant uniquement le CSS.
+                Conclusion
+                Ce langage informatique a mis plusieurs années pour devenir la référence de la mise en page des sites web. Même avec les CMS, vous pouvez modifier l’apparence d’un site avec des lignes de code en CSS. Une nouvelle façon de faire avec les flexbox rend le CSS encore plus efficace.
+                Le CSS permet de modifier la forme d’une balise HTML, d’une classe (nom que l’on peut donner à plusieurs balises pour les différencier), ou d’un élément en particulier.
+                Bref vous pouvez tout faire avec le CSS, le tout est de bien maitriser ce langage!</p>
+</div>
+</main>
+<footer>
+    <div>
+        <ul>
+            <li>Toulouse</li>
+            <li>-</li>
+            <li>Montpellier</li>
+            <li>-</li>
+            <li>Tarbes & Lourdes</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href=""><img src="../image/social_facebook_fb_35.png" alt="lien facebook"></a></li>
+            <li><a href=""><img src="../image/social_Twitter_38.png" alt="lien twitter"></a></li>
+            <li><a href=""><img src="../image/linkedin_black_logo_icon_147114.png" alt="lien linkedin"></a></li>
+            <li><a href=""><img src="../image/social_vimeo_28.png" alt="lien vimeo"></a></li>
+        </ul>
+    </div>
+</footer>

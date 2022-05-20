@@ -1,0 +1,33 @@
+c’est quoi JavaScript, quand l’utiliser??
+
+
+Connu pour faire partie de la triade des langages maitrisés par les développeurs front-end, le JavaScript permet de dynamiser les sites Internet. Il s’associe donc à l’HTML et au CSS dans la création des pages web.
+
+Mais ce n’est pas tout. Le JavaScript a su s’exporter sur tous les supports et cette polyvalence fait sa force.
+
+C’est, de plus, un langage assez simple à apprendre et l’on trouve très rapidement son intérêt.
+
+
+Quelle est l’utilité du JavaScript??
+Aujourd’hui, le JavaScript permet d’apporter « de la vie » aux sites internet. Il permet cela également pour les applications ou jeux.
+
+En effet, ce langage – qui fonctionne côté client – est un langage interprété. C’est le navigateur, et donc l’ordinateur de celui qui consulte, qui traduit le code en actions. Il permet ainsi de faire de nombreuses choses sans avoir à échanger continuellement avec le serveur. Cela apporte de la fluidité et surtout du style.
+
+Sur un site internet, voici un échantillon des possibles grâce au JavaScript :
+
+modifier l’apparence d’un contenu sans repasser par le serveur,
+animer des images,
+contrôler du contenu multimédia,
+aller chercher des données sans recharger toute la page…
+
+
+
+L’histoire du JavaScript en quelques lignes
+De nombreux sites retracent toute la vie de ce langage qui est apparu au milieu des années 1990. Il est tout de même intéressant de connaître sa création pour comprendre son intérêt. Il était associé au navigateur Netscape, connu par les plus anciens, et il a introduit du dynamisme.
+
+C’était très précaire et le langage a évolué sous la dénomination d’ECMAScript sous plusieurs versions.
+
+Enfin, avec l’appui de nombreux développeurs et une communauté de plus en plus grandissante, le JavaScript a connu un essor monstrueux pour se retrouver sur la quasi-totalité des sites internet ??
+
+À noter : ce langage est à différencier de Java qui est un autre langage de programmation.
+

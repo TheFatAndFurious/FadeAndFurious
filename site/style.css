@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #3A3A3A;
+}
+
+/* -------------------------------------Header------------------------------------------- */
+
+#baniere{
+    background-image: url(../image/digitalfingerprint.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 12vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#baniere div{
+    padding: 0 5vw;
+}
+#baniere #menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#baniere #menu ul li{
+    padding: 1vw;
+}
+#baniere #menu ul li a{
+    color: #222222;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+#baniere #menu ul li a:hover{
+    color: #57C3E1;
+}
+
+#presentation {
+    background: #3A3A3A;
+    height: 4vh;
+}
+#presentation ul {
+    /* background: #3A3A3A; */
+    height: 4vh;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+}
+#presentation ul li{
+    text-align: center;
+    height: 4vh;
+    background-image: url(../image/lienB&W.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#presentation ul li:hover{
+    background-image: url(../image/liens.jpg);
+}
+#presentation ul li:hover a{
+    color: #57C3E1;
+    font-size: 2.5vw;
+}
+#presentation ul li a{
+    color: #F5F5F5;
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+/* -------------------------------------Footer------------------------------------------- */
+
+footer{
+    height: 25vh;
+    background: #222222;
+    padding: 4vh 10vw;
+}
+footer #siege {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+footer #siege ul{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F5F5F5;
+}
+footer #network ul{
+    margin: 2vh 0;
+    padding:  0 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer #network ul img{
+    width: 35px;
+    height: 35px;
+}

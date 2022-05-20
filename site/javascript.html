@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="minireset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAccueil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="baniere">
+                <div id="logo">
+                    <img src="../image/2019_LOGO-POLE-NUM-4.png" alt="Logo adrar">
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="presentation">
+                <ul>
+                    <li><a href="html.html">Html</a></li>
+                    <li><a href="css.html">Css</a></li>
+                    <li><a href="javascript.html">Javascript</a></li>
+                    <li><a href="api.html">Api</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <img id="logo" src="logo.png" alt="javascript">
+        </div>
+        <div>
+            <h2>Javascript c'est quoi?</h2>
+            <p>Jusqu'ici nous avons vu les langages HTML et CSS. Le premier est un langage de description de pages Web et se base sur les balises et le deuxième est un langage de style qui repose sur des déclarations simples sous la forme de directives. Donc, ni l'un ni l'autre n'est un langage de programmation. Ils sont même loin d'y ressembler.
+
+                Javascript quant à lui, est bel et bien un langage de programmation. Pour être plus précis, il s'agit d'un langage de script mais repose sur les mêmes principes qu'un langage de programmation évolué. D'ailleurs il est inspiré des fameux langages C et Java (et d'autres langages peu connus).
+                
+                Vous vous dites sûrement, on a déjà HTML et CSS. Avec ces deux technologies on peut avoir une page Web réussie au niveau du contenu et du design. Alors, qu'apporterait Javascript de plus à nos pages Web? La réponse est: l'interactivité. En effet, nos pages Web peuvent désormais "dialoguer" avec l'internaute (dialoguer dans le sens figuré bien entendu). <br>
+                 Mais ce qui est certain c'est que nos pages Web seront capables de comprendre les actions de l'internaute et réagir en fonction de ce qui est demandé. <br>
+                 Ils peuvent aussi contenir des animations complexes (bien qu'on a pu en créer quelques unes grâce aux prouesses des transitions et animations de CSS3). Pour faire simple, dites vous que les créateurs de Javascript n'auraient pas donné vie à un tel langage s'il n'avaient pas senti le besoin. Judicieux non? 
+                </p>
+        </div>
+        <div>
+            <h2>Qu'est ce que Javascript?</h2>
+            <p>Javascript est un langage de script coté client, c'est à dire qu'il est exécuté sur le navigateur. Il a été créé en 1995 par Netscape Communication Corporation. A l'époque il s'appelait LiveScript. Fin 1995, et suite à une association entre Netscape et SUN (créateur du fameux langage Java), LiveScript s'est fait rebaptiser Javascript.
+                il ne faut pas confondre Javascript avec Java. Ce sont deux langages différents à des finalités différentes aussi (bien que la syntaxe des deux se ressemble un peu).
+                Javascript est un standard ECMA Script. En effet, ECMA Script est un langage de script coté client mais il sert de standard dont les spécifications sont respectées par les autres langages de script comme Javascript ou ActionScript (un langage utilisé pour ajouter de l'interactivité aux animations Flash).
+                
+                Javascript est un langage de programmation orienté prototype (un concept qui ressemble à l'orienté objet mais qui n'utilise pas les classes). Si à la base il est coté client, on peut cependant l’exécuter au serveur si l'on veut (notamment avec Node.js ou autres platetformes).
+                </p>
+        </div>
+        <div>
+            <h2>A quoi ressemble un programme écrit en Javascript?</h2>
+            <p>/*! HTML5 Shiv vpre3.6 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed Uncompressed source: https://github.com/aFarkas/html5shiv */
+                (function(a,b){function h(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x"style>"+b+",d.insertBefore(c.lastChild,d.firstChild)}function i(){var a=l.elements;return typeof a=="string"?a.split(" "):a}function j(a){var b={},c=a.createElement,f=a.createDocumentFragment,g=f();a.createElement=function(a){if(!l.shivMethods)return c(a);var f;return b[a]?f=b[a].cloneNode():e.test(a)?f=(b[a]=c(a)).cloneNode():f=c(a),f.canHaveChildren&&!d.test(a)?g.appendChild(f):f},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+i().join().replace(/w+/g,function(a){return c(a),g.createElement(a),'c("'+a+'")'})+");return n}")(l,g)}function k(a){var b;return a.documentShived?a:(l.shivCSS&&!f&&(b=!!h(a,"article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio{display:none}canvas,video{display:inline-block;*display:inline;*zoom:1}[hidden]{display:none}audio[controls]{display:inline-block;*display:inline;*zoom:1}mark{background:#FF0;color:#000}")),g||(b=!j(a)),b&&(a.documentShived=b),a)}var c=a.html5||{},d=/^<|^(?:button|form|map|select|textarea|object|iframe|option|optgroup)$/i,e=/^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,f,g;(function(){var c=b.createElement("a");c.innerHTML="<xyz></xyz>",f="hidden"in c,f&&typeof injectElementWithStyles=="function"&&injectElementWithStyles("#modernizr{}",function(b){b.hidden=!0,f=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle).display=="none"}),g=c.childNodes.length==1||function(){try{b.createElement("a")}catch(a){return!0}var c=b.createDocumentFragment();return typeof c.cloneNode=="undefined"||typeof c.createDocumentFragment=="undefined"||typeof c.createElement=="undefined"}()})();var l={elements:c.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:c.shivCSS!==!1,shivMethods:c.shivMethods!==!1,type:"default",shivDocument:k};a.html5=l,k(b)})(this,document) <br>
+                <div>
+            <strong>Pas de panique</strong> Pas de panique! C'est vrai que la syntaxe vous est probablement étrangère, mais le script lui même à été condensé en éliminant les retours à la ligne et les tabulations qui rendent, normalement, le code plus lisible. De toute façon, nous allons avancer doucement pour que vous compreniez comment programmer en Javascript.
+                   Caractéristiques de Javascript"</p>
+                </div> 
+                <div>
+                    <img id="exemple" src="code.jpg" alt="code">
+                </div>  
+        </div>
+        <div>
+            <h2>Caractéristiques de Javascript</h2>
+            <p>Puisque Javascript est un langage coté client alors il a un principal avantage et un principal inconvénient:
+
+                Avantage: Le code source Javascript est chargé avec la page (en même temps que HTML et CSS). A la fin du chargement, tous les codes sont présents chez le client. Par conséquent, l’exécution de Javascript est extrêmement rapide puisque tout est disponible sur place. Inversement aux langages coté serveur comme PHP, qui nécessitent à chaque fois l'interrogation du serveur, ce qui rend l’exécution plus lente.
+                Inconvénient: La même raison qui a procuré à Javascript son principal avantage, cause cette fois-ci son ultime inconvénient. En effet, le fait que les codes soient disponibles sur le navigateur rend ceux ci visibles par tous. Le code Javascript est par conséquent non confidentiel.
+            
+            Prérequis
+            Pour tirer profit de ce cours, il est fortement recommandé d'être initié en programmation. Si vous faites déjà de la programmation et vous avez eu l'occasion de manipuler des langages comme C ou Java, il vous sera facile de suivre le cours de Javascript. Par contre si vous ne disposez pas des bases de la programmation et d'algorithmique. Mieux vaut commencer par là.
+            
+            Sur ce site, j'ai prévu une liste de liens utiles, parmi lesquels, des liens vers des sites qui vous aideront à apprendre la programmation. </p>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div id="siege">
+            <ul>
+                <li>Toulouse</li>
+                <li>-</li>
+                <li>Montpellier</li>
+                <li>-</li>
+                <li>Tarbes & Lourdes</li>
+            </ul>
+        </div>
+        <div id="network">
+            <ul>
+                <li><a href=""><img src="../image/social_facebook_fb_35.png" alt="lien facebook"></a></li>
+                <li><a href=""><img src="../image/social_Twitter_38.png" alt="lien twitter"></a></li>
+                <li><a href=""><img src="../image/linkedin_black_logo_icon_147114.png" alt="lien linkedin"></a></li>
+                <li><a href=""><img src="../image/social_vimeo_28.png" alt="lien vimeo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

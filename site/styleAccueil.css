@@ -1,0 +1,29 @@
+main{
+    margin: 0 15vw;
+    color: #F5F5F5;
+}
+h2{
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+p {
+    font-size: 1.5vw;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: justify;
+}
+main div {
+    margin-top: 75px;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 15px;
+}
+
+#formation ul li, #stat ul li{
+    margin: 20px 0;
+    list-style: circle;
+    margin-left: 20px;
+}
+#stat{
+    border: none;
+}

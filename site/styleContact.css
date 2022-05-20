@@ -1,0 +1,72 @@
+#desc,form{
+    margin: 0 15vw;
+    color: #F5F5F5;
+    
+    
+}
+h2{
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+p, label{
+    font-size: 1.5vw;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: justify;
+}
+#identity{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+#identity input{
+    height: 30px;
+}
+.ligne{
+    height: 1px;
+    width: 100px;
+    background: #F5F5F5;
+    margin: auto;
+    
+}
+#choixFormation{
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr 0.1fr 0.9fr 0.1fr 0.9fr;
+    align-items: center;
+    gap: 15px;
+    
+}
+#choixFormation label{
+    font-size: 1.2vw;
+    line-height: 15px;
+}
+#message,#fichier,#button{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#fichier{
+    flex-direction: column;
+
+}
+main div {
+    margin: 75px 0;
+
+}
+
+@media screen and (max-width:600px){
+    #identity{
+        
+        grid-template-columns: 1fr ;
+        
+    }
+    #choixFormation{
+        
+        grid-template-columns: 0.1fr 0.9fr;
+        align-items: center;
+        
+    }
+    
+}
