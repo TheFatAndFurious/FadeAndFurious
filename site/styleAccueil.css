@@ -27,3 +27,24 @@ main div {
 #stat{
     border: none;
 }
+
+---------------------informations----------------------
+
+#logo{
+   text-align: center;
+}
+
+.intro #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50vw;
+}
+
+
+#exemple{
+   text-align: center;
+    width: 60vw;
+    margin: 5vh;
+   
+}
